@@ -1,0 +1,18 @@
+<!-- lushlyrics/users/templates/users/thank_you.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Registering</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You for Registering!</h1>
+        <p>You have successfully created an account. You can now <a href="{% url 'login' %}">log in</a>.</p>
+    </div>
+</body>
+</html>
+
